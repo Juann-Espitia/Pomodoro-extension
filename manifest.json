@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Pomodoro Learning Timer",
+  "version": "1.1.0",
+  "description": "Focused learning with custom sessions, short breaks, and long breaks every 4 pomodoros.",
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon.svg",
+    "default_title": "Pomodoro Learning Timer"
+  },
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
+  "permissions": [
+    "notifications",
+    "storage"
+  ]
+}
